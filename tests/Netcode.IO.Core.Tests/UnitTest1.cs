@@ -186,7 +186,7 @@ namespace Netcode.IO.Core.Tests
 			sw.Stop();
 		}
 
-		[Trait("Category", "Soak Connection"), Fact]
+		[Trait("Category", "SoakConnection"), Fact]
 		public void SoakClientServerRandomConnection()
 		{
 			TestDefinitions.SoakTestClientServerConnection(30);
